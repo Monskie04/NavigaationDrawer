@@ -4,13 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/drawable/basket.xml" value="0.1" />
+        <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/drawable/orders.xml" value="0.1" />
+        <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/drawable/search.xml" value="0.2595" />
+        <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/activity_gem_wiki.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/app_bar_main.xml" value="0.1109375" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/fragment_fav.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/fragment_favorite.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/fragment_gem_data.xml" value="0.25" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/fragment_search_fragmeent.xml" value="0.10104166666666667" />
         <entry key="..\:/Users/monra/Desktop/Monray/NavigaationDrawer/app/src/main/res/layout/header.xml" value="0.12284701114488349" />

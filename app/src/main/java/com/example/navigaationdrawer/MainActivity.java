@@ -64,7 +64,7 @@ FragmentManager fragmentManager;
 
                     case R.id.gemData:
                     {
-                        Toast.makeText(MainActivity.this, "Search", Toast.LENGTH_SHORT).show();
+                        replaceFragment(new gemData());break;
                     }
                     case R.id.aboutus:
                     {
