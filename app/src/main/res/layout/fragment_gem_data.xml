@@ -41,7 +41,7 @@
             android:fontFamily="@font/nunito_semibold"
             android:textAllCaps="true"
             android:padding="10dp"/>
-
+<!--precious stone-->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="190dp">
@@ -55,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:text="Precious Stone"
                 android:textSize="30sp"
+                android:textColor="@color/black"
                 android:fontFamily="@font/nunito_semibold"
                 android:padding="25dp">
 
@@ -63,22 +64,22 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Expand All"
+                android:layout_alignParentBottom="true"
                 android:background="?android:attr/selectableItemBackground"
                 android:padding="20dp"
-                android:textColor="@color/black"
-                android:layout_alignParentBottom="true"/>
+                android:text="Expand All"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="120dp"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="0dp"/>
+                android:layout_marginTop="0dp" />
 <!--     image  android:src="@drawable/stones" />-->
         </RelativeLayout>
 
         </RelativeLayout>
-
+<!--Semi-precious-->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -89,7 +90,7 @@
             <ImageView
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="20dp" />
 <!--            android:src="@drawable/"-->
 
 
@@ -111,6 +112,117 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:padding="20dp"
                 android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+<!--Rocks stone-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rocks"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:padding="25dp">
+
+                </TextView>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expand All"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="20dp"
+                    android:textColor="@color/white"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="0dp"/>
+                <!--     image  android:src="@drawable/stones" />-->
+            </RelativeLayout>
+
+        </RelativeLayout>
+<!--Synthetic-precious-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg5">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"/>
+            <!--android:src="@drawable/"-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/nunito_semibold"
+                android:padding="25dp"
+                android:text="Synthetic"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="20dp"
+                android:text="expand all"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+<!--Organic stone-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/bg">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Organic "
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:padding="25dp">
+
+                </TextView>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expand All"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentBottom="true"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="0dp"/>
+                <!--     image  android:src="@drawable/stones" />-->
+            </RelativeLayout>
+
         </RelativeLayout>
 
 
