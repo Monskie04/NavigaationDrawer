@@ -13,27 +13,32 @@
         android:id="@+id/frameLayout"
         android:layout_below="@+id/appbarLayout">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="277dp"
-            android:background="@drawable/dashboard">
+            android:layout_height="235dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dashboard"
+            app:layout_constraintHeight_percent="0.35"
+            app:layout_contrainVertical_bias="0"
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="356dp"
-                android:layout_height="105dp"
-                android:fontFamily="@font/nunito_semibold"
-                android:text="Gemstone Geometric Classification  information"
-                android:textColor="@color/white"
-                android:textSize="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.49"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
+            />
     </FrameLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_consstraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.78"
+        app:layout_constraintVertical_blas= "1"
+        app:layout_constraintStart_toStartOF = "parent"
+        app:layout_constraintTop_toTopOF = "parent">
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
