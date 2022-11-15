@@ -3,6 +3,7 @@ package com.example.navigaationdrawer;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -11,6 +12,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -20,6 +22,10 @@ DrawerLayout drawerLayout;
 NavigationView navigationView;
 ActionBarDrawerToggle drawerToggle;
 FragmentManager fragmentManager;
+    CardView cardCamera;
+    CardView cardFavs;
+    CardView cardData;
+    CardView cardGroup;
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -34,6 +40,10 @@ FragmentManager fragmentManager;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        cardCamera = findViewById(R.id.cardCamera);
+        cardFavs = findViewById(R.id.cardFavs);
+        cardData = findViewById(R.id.cardData);
+        cardGroup = findViewById(R.id.cardGroup);
 
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
@@ -83,8 +93,28 @@ FragmentManager fragmentManager;
                 return false;
             }
         });
+    cardCamera.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            replaceFragment(new searchFragmeent());
+        }
+    });
+
+    cardData.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                replaceFragment(new gemData());
+            }
+        });
+
+
 
     }
+
+
+
+
 
     private void replaceFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
@@ -93,6 +123,8 @@ FragmentManager fragmentManager;
         fragmentTransaction.commit();
 
     }
+
+
 
 
 
